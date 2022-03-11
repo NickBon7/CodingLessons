@@ -1,0 +1,97 @@
+.contact {
+  width: 100%;
+  margin: 3rem 0;
+  display: flex;
+}
+
+.contact .container {
+  max-width: 1240px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+}
+
+.contact .col1 {
+  flex: 1 0 50%;
+  padding: 4rem 2rem;
+}
+
+.contact .col1 h2 {
+  font-size: 28px;
+  padding: 0.5rem 0;
+}
+
+.contact p {
+  color: rgb(48, 48, 48);
+}
+
+.contact .col1 .address {
+  padding: 1rem 0;
+}
+
+.contact .col1 .icons {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.contact .col2 {
+  flex: 1 0 50%;
+  padding: 4rem 2rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  margin: auto;
+}
+
+.contact form input {
+  border: 1px solid gray;
+  font-size: 14px;
+}
+
+.contact form textarea {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+form h3 {
+  border: 2px solid rgb(73, 73, 73);
+  text-align: center;
+  color: rgb(73, 73, 73);
+  border-radius: 4px;
+}
+
+form .btnSend {
+  margin-top: 2px;
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 4px;
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  color: #fff;
+  cursor: pointer;
+}
+
+form .btnSend:hover {
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+@media screen and (max-width: 960px) {
+  .contact {
+    margin: 1rem 0;
+  }
+  .contact .container {
+    flex-direction: column;
+  }
+
+  .contact .col1 {
+    padding: 0 1rem;
+  }
+  .contact .col2 {
+    padding: 1rem;
+  }
+}

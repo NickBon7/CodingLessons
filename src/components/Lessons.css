@@ -1,0 +1,98 @@
+.lessons {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.lessons .container {
+  max-width: 1240px;
+  padding: 1rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.lessons .topContent {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border-bottom: 1px solid green;
+  padding-bottom: 2.5rem;
+}
+
+.prilessonscing .topContent h2 {
+  font-size: 35px;
+  padding-bottom: 1rem;
+}
+
+.lessons .topContent p {
+  color: gray;
+}
+
+.lessons .bottomContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+  margin: 1rem auto;
+}
+
+.lessons .card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 1rem 0;
+  background-color: rgb(228, 248, 255);
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.lessons .card div {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 1rem;
+}
+
+.btnEnroll {
+  width: 100%;
+  height: 70%;
+  padding: 8px 0;
+  border-radius: 4px;
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0.7rem;
+  font-size: 1rem;
+}
+.btnEnroll:hover {
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+@media screen and (max-width: 960px) {
+  .lessons .topContent {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .lessons .bottomContent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .bottomContent .card p {
+    margin: auto;
+  }
+  .lessons .topContent h2 {
+    font-size: 28px;
+  }
+
+  .btnEnroll {
+    width: 20%;
+    height: 95%;
+    margin: auto;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .lessons .bottomContent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,32 @@
+.footer {
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+}
+
+.footer .container {
+  max-width: 1240px;
+  padding: 2.5rem 1rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.footer .link {
+  color: rgb(178, 185, 248);
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  margin: 4px;
+}
+
+.footer .link:hover {
+  color: rgb(227, 229, 248);
+}
+
+.footer .copy {
+  text-align: center;
+  padding-bottom: 5px;
+  color: rgb(205, 247, 233);
+  opacity: 0.6;
+}

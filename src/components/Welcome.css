@@ -1,0 +1,160 @@
+.welcome {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(20, 20, 20);
+  color: #fff;
+}
+
+.welcome .container {
+  max-width: 1240px;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.welcome .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.welcome .col1 {
+  padding: 1rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome .col1 h1 {
+  font-size: 40px;
+  font-weight: 650;
+  /* color: #fff; */
+}
+
+.welcome .col1 p {
+  font-size: 18px;
+  /* color: azure; */
+  margin-top: 1rem;
+}
+
+.welcome .lang p {
+  color: gray;
+  font-size: 12px;
+  margin: 2rem 0 1rem 0;
+}
+
+.welcome .col1 .icons i {
+  color: gray;
+  padding-right: 1rem;
+}
+
+.welcome .col2 {
+  padding: 1rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.welcome .col2 p {
+  color: rgb(109, 109, 109);
+}
+
+.welcome .formLayout {
+  width: 400px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.welcome .coding {
+  color: rgb(163, 212, 255);
+}
+
+.welcome .formContainer {
+  padding: 1.5rem;
+}
+
+.welcome .signIn {
+  margin-bottom: 2rem;
+}
+
+.social i {
+  background-color: rgb(159, 203, 214);
+  padding: 15px 40px;
+  border: 1px solid rgb(82, 81, 81);
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.col2 .or p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  line-height: 0.5px;
+  margin: 2rem 0 2rem;
+}
+.col2 .or p span {
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.btnCreate {
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 4px;
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  color: #fff;
+  cursor: pointer;
+}
+.btnCreate:hover {
+  border: 1px solid blue;
+  background-color: blue;
+}
+
+.welcome .formContainer {
+  box-shadow: rgba(202, 202, 202, 0.25) 0px 54px 55px,
+    rgba(160, 160, 160, 0.12) 0px -12px 30px,
+    rgba(175, 175, 175, 0.12) 0px 4px 25px,
+    rgba(161, 161, 161, 0.17) 0px 12px 33px,
+    rgba(180, 180, 180, 0.09) 0px -3px 40px;
+}
+
+.welcome .formFooter {
+  border: 1px solid rgb(199, 199, 199);
+  background-color: aliceblue;
+  border-radius: 7px;
+}
+.formFooter p {
+  padding: 1rem 2rem;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 960px) {
+  .welcome {
+    height: auto;
+    width: 100%;
+  }
+
+  .welcome .content {
+    grid-template-columns: 1fr;
+  }
+
+  .welcome .col1 {
+    height: 90vh;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .hero .col2 {
+    display: none;
+  }
+}
