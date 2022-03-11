@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Codinglessons/static/css/main.7351d962.css",
-    "main.js": "/Codinglessons/static/js/main.3c7cc655.js",
-    "static/media/logo.png": "/Codinglessons/static/media/logo.c5e72f0d48f79924c9d0.png",
-    "index.html": "/Codinglessons/index.html",
-    "main.7351d962.css.map": "/Codinglessons/static/css/main.7351d962.css.map",
-    "main.3c7cc655.js.map": "/Codinglessons/static/js/main.3c7cc655.js.map"
+    "main.css": "/CodingLessons/static/css/main.7351d962.css",
+    "main.js": "/CodingLessons/static/js/main.a00aca6a.js",
+    "static/media/logo.png": "/CodingLessons/static/media/logo.c5e72f0d48f79924c9d0.png",
+    "index.html": "/CodingLessons/index.html",
+    "main.7351d962.css.map": "/CodingLessons/static/css/main.7351d962.css.map",
+    "main.a00aca6a.js.map": "/CodingLessons/static/js/main.a00aca6a.js.map"
   },
   "entrypoints": [
     "static/css/main.7351d962.css",
-    "static/js/main.3c7cc655.js"
+    "static/js/main.a00aca6a.js"
   ]
 }
